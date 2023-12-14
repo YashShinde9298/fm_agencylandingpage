@@ -1,0 +1,327 @@
+/* font-family: 'Barlow', sans-serif;
+font-family: 'Fraunces', serif; */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.container {
+    width: 100%;
+    height: 728px;
+    background: url('./images/desktop/image-header.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.navbar {
+    height: 70px;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    padding: 0px 30px;
+    justify-content: space-between;
+    color: hsl(0, 0%, 100%);
+}
+
+.navbar h2 {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    font-family: 'Barlow', sans-serif;
+
+}
+
+.container h1 {
+    color: hsl(0, 0%, 100%);
+    font-size: 50px;
+    font-family: 'Fraunces', serif;
+    letter-spacing: 13px;
+    margin-top: 150px;
+}
+
+.container svg {
+    margin-top: 100px;
+}
+
+.learn {
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.learn .info {
+    height: 600px;
+    width: 50%;
+    text-align: left;
+    padding: 180px;
+    box-sizing: border-box;
+}
+
+.learn .info h1 {
+    font-size: 50px;
+    font-family: 'Fraunces', serif;
+}
+
+.learn .info p {
+    font-size: 15px;
+    margin: 20px 0px;
+    line-height: 1.8;
+    font-family: 'Barlow', sans-serif;
+    color: hsl(210, 4%, 67%);
+}
+
+.learn .info button {
+    width: 150px;
+    font-size: 18px;
+    letter-spacing: 1.6;
+    border: 0;
+    background: transparent;
+    font-weight: 400;
+    font-family: 'Fraunces', serif;
+    border-bottom: 10px solid hsl(51, 100%, 49%);
+}
+
+.learn .img {
+    height: 600px;
+    width: 50%;
+    box-sizing: border-box;
+    background: url('./images/desktop/image-transform.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.learn1 .img {
+    height: 600px;
+    width: 50%;
+    box-sizing: border-box;
+    background: url('./images/desktop/image-stand-out.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.learn1 {
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.learn1 .info {
+    height: 600px;
+    width: 50%;
+    text-align: left;
+    padding: 180px;
+    box-sizing: border-box;
+}
+
+.learn1 .info h1 {
+    font-size: 50px;
+    font-family: 'Fraunces', serif;
+}
+
+.learn1 .info p {
+    font-size: 15px;
+    margin: 20px 0px;
+    line-height: 1.8;
+    font-family: 'Barlow', sans-serif;
+    color: hsl(210, 4%, 67%);
+}
+
+.learn1 .info button {
+    width: 150px;
+    font-size: 18px;
+    letter-spacing: 1.6;
+    border: 0;
+    background: transparent;
+    font-weight: 400;
+    font-family: 'Fraunces', serif;
+    border-bottom: 10px solid hsl(7, 99%, 70%);
+}
+
+.learn2 {
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.learn2 .info1 {
+    height: 600px;
+    width: 50%;
+    text-align: center;
+    padding: 180px;
+    box-sizing: border-box;
+    background: url('./images/desktop/image-graphic-design.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.learn2 .info2 {
+    height: 600px;
+    width: 50%;
+    text-align: center;
+    padding: 180px;
+    box-sizing: border-box;
+    background: url('./images/desktop/image-photography.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.learn2 .info1 h1 {
+    font-family: 'Fraunces', serif;
+    margin-top: 200px;
+    padding: 20px;
+    color: hsl(167, 40%, 24%);
+}
+
+.learn2 .info1 p {
+    font-size: 15px;
+    line-height: 1.8;
+    font-family: 'Barlow', sans-serif;
+    color: hsl(167, 40%, 24%);
+}
+
+.learn2 .info2 h1 {
+    font-family: 'Fraunces', serif;
+    margin-top: 200px;
+    padding: 20px;
+    color: hsl(198, 62%, 26%);
+}
+
+.learn2 .info2 p {
+    font-size: 15px;
+    line-height: 1.8;
+    font-family: 'Barlow', sans-serif;
+    color: hsl(198, 62%, 26%);
+}
+
+
+.clients {
+    padding: 120px 60px;
+    text-align: center;
+}
+
+.clients h3 {
+    font-family: 'Fraunces', serif;
+    color: hsl(213, 9%, 39%);
+    letter-spacing: 8px;
+}
+
+.clients .card-div {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+
+.clients .card-div div {
+    height: 500px;
+    width: 400px;
+    box-sizing: border-box;
+    padding: 50px;
+}
+
+
+.clients .card-div div img {
+    border-radius: 50%;
+    height: 100px;
+}
+
+.clients .card-div div p {
+    line-height: 1.6;
+    font-family: 'Barlow', sans-serif;
+    color: hsl(213, 9%, 39%);
+    margin-top: 80px;
+}
+
+.clients .card-div div h4 {
+    line-height: 1.6;
+    font-family: 'Fraunces', serif;
+    color: hsl(212, 27%, 19%);
+    margin-top: 60px;
+}
+
+.clients .card-div div h5 {
+    line-height: 1.6;
+    font-family: 'Fraunces', serif;
+    color: hsl(210, 4%, 67%);
+}
+
+.images {
+    display: flex;
+    height: 400px;
+    /* border: 2px solid black; */
+}
+
+.images div:nth-child(1) {
+    width: 400px;
+    background: url('./images/desktop/image-gallery-milkbottles.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.images div:nth-child(2) {
+    width: 400px;
+    background: url('./images/desktop/image-gallery-orange.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.images div:nth-child(3) {
+    width: 400px;
+    background: url('./images/desktop/image-gallery-cone.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.images div:nth-child(4) {
+    width: 400px;
+    background: url('./images/desktop/image-gallery-sugarcubes.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.footer {
+    height: 250px;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 40px 20px;
+    background: hsl(168, 50%, 54%);
+    color: hsl(167, 40%, 24%);
+
+}
+
+.footer .details {
+    display: flex;
+    text-align: center;
+    width: 30%;
+    justify-content: space-around;
+    margin-left: 530px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.footer .details p {
+    font-size: 18px;
+    font-family: 'Barlow', sans-serif;
+
+}
